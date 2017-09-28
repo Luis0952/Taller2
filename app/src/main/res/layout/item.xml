@@ -9,6 +9,11 @@
     android:padding="10dp"
     android:background="@drawable/bordertres"
     >
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/bordercuatro"
+    android:layout_marginRight="5dp">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -16,8 +21,9 @@
         android:src="@drawable/internet"
         android:layout_marginRight="10dp"
         android:layout_marginTop="50dp"
+        android:layout_centerInParent="true"
         />
-
+</RelativeLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,16 +34,24 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:background="@drawable/borderdos"
-            android:paddingTop="7dp">
+            android:paddingTop="3dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/bordercuatro"
+                android:layout_marginBottom="2dp"
+                >
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/bandera"
                 android:layout_marginLeft="10dp"
-                android:layout_marginBottom="5dp"
-
-                />
+                android:layout_marginBottom="2dp" />
+            </LinearLayout>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -67,13 +81,24 @@
             android:background="@drawable/borderdos"
             android:layout_marginTop="5dp">
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/bordercuatro"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp">
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/paisaje_urbano"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_marginTop="5dp"/>
+            </LinearLayout>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -101,15 +126,29 @@
             android:orientation="horizontal"
             android:background="@drawable/borderdos"
             android:layout_marginTop="5dp"
-            android:paddingBottom="7dp">
+            android:paddingBottom="1dp"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="3dp"
+                android:paddingRight="6dp"
+                android:background="@drawable/bordercuatro"
+                android:layout_marginBottom="2dp"
+                android:paddingBottom="3dp"
+
+                >
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/abs_en_esquema_de_circulo"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="5dp"
-                />
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp" />
+            </LinearLayout>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
