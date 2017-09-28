@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/lly_1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:background="@drawable/bordertres"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/internet"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/borderdos"
+            android:paddingTop="7dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bandera"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pais:"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/id_tv_item_namecountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Colombia"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/borderdos"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/paisaje_urbano"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Capital:"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/id_tv_item_namecapital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bogota"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/borderdos"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="7dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/abs_en_esquema_de_circulo"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abreviatura:"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/id_tv_item_nameabbreviation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="COL"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/borderuno"
+            android:layout_marginTop="10dp"
+            android:padding="9dp">
+
+            <TextView
+                android:id="@+id/id_reg_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Región: "
+                android:textSize="15sp"
+                android:layout_marginLeft="2dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/id_reg_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Caribe "
+                android:textSize="11sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/id_subr_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Subregion: "
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/id_subr_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" N/A "
+                android:textSize="11sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
