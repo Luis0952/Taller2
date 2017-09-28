@@ -180,7 +180,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=" Región: "
-                android:textSize="15sp"
+                android:textSize="14sp"
                 android:layout_marginLeft="2dp"
                 android:textColor="@android:color/white"
                 android:textStyle="bold"/>
@@ -189,7 +189,7 @@
                 android:id="@+id/id_reg_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" Caribe "
+                android:text=" America "
                 android:textSize="11sp"
                 android:layout_marginLeft="10dp"
                 android:textColor="@android:color/black" />
@@ -199,7 +199,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=" Subregion: "
-                android:textSize="15sp"
+                android:textSize="14sp"
                 android:layout_marginLeft="10dp"
                 android:textColor="@android:color/white"
                 android:textStyle="bold"/>
@@ -207,7 +207,7 @@
                 android:id="@+id/id_subr_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" N/A "
+                android:text="SurAmerica "
                 android:textSize="11sp"
                 android:layout_marginLeft="10dp"
                 android:textColor="@android:color/black" />
